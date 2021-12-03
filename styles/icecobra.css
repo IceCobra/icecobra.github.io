@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@400&display=swap');
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #2E5457;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#logo_link {
+        padding-top: 5px;
+        justify-self: center;
+        align-self: center;
+        padding-top: 5px;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}  
+nav a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #586037;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.logo {
+    width: 80px;
+}
+img{
+    max-width:100%;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #E0E0E0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+.home-grid{
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 1em;
+}
+.home-paragraph{
+    grid-column:1/3 ;
+    grid-row: 1/2;
+    font-size: 2em;
+    padding :10px;
+}
+.home-right-image{
+    grid-column:3/4 ;
+    grid-row: 1/2;
+    padding: 10px;
+    border-radius: 20px;
+}
+.button-1{
+    grid-column:1/2 ;
+    grid-row: 2/3;
+    display: block;
+    margin: 0 auto;
+}
+.button-2{
+    grid-column:2/3 ;
+    grid-row: 2/3;
+    display: block;
+    margin: 0 auto;
+}
+.button-3{
+    grid-column:3/4 ;
+    grid-row: 2/3;
+    display: block;
+    margin: 0 auto;
+}
+#hero-img{
+    width: 100%;
+}
+.button-1 button, .button-2 button, .button-3 button{
+display: block;
+margin:0 auto;
+background-color: #2E5457;
+color: white;
+border-radius: 5px;
+padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+    .button-1{
+        grid-column:1/2 ;
+        grid-row: 2/3;
+        display: block;
+        margin: 0 auto;
+    }
+    .button-2{
+        grid-column:2/3 ;
+        grid-row: 2/3;
+        display: block;
+        margin: 0 auto;
+    }
+    .button-3{
+        grid-column:3/4 ;
+        grid-row: 2/3;
+        display: block;
+        margin: 0 auto;
+    }
+}
