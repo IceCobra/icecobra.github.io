@@ -93,13 +93,14 @@ h1,h2,h3,h4,h5,h6{
 #hero-img{
     width: 100%;
 }
-.button-1 button, .button-2 button, .button-3 button{
+.button-1 a, .button-2 a, .button-3 a{
 display: block;
 margin:0 auto;
 background-color: #2E5457;
 color: white;
 border-radius: 5px;
 padding: 10px;
+text-align: center;
 }
 
 /* ready-mech-go */
